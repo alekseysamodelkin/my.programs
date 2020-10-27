@@ -28,7 +28,7 @@ turtle.screensize(5)
 
 
 круг()
-turtle.goto(x=-20, y=140)
+turtle.setposition(-25,140)
 star()
 
 turtle.hideturtle()
