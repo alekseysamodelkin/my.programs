@@ -16,11 +16,19 @@ def star():
     turtle.forward(50)
     turtle.right(60)
 
+def круг():
+    turtle.circle(100,360,100)
+
+
 turtle.shape('turtle')
 turtle.shapesize(1)
 turtle.color('red', 'green')
-turtle.speed(5)
+turtle.speed(2)
+turtle.screensize(5)
 
+
+круг()
+turtle.goto(x=-20, y=140)
 star()
 
 turtle.hideturtle()
