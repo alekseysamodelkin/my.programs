@@ -19,7 +19,7 @@ def star():
 def круг():
     turtle.circle(100,360,100)
 
-
+import turtle
 turtle.shape('turtle')
 turtle.shapesize(1)
 turtle.color('red', 'green')
